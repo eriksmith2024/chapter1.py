@@ -29,4 +29,15 @@ verbs = ['Leverage', 'Sync', 'Target','Gamify', 'Offline', 'Crowd-sourced', '24/
 
 adjectives = ['A/B Tested', 'Freemium', 'Hyperlocal','Siloed', 'B-to-B', 'Oriented', 'Cloud Based', 'API based']
 
-nouns = ['Early Adopter', 'Low hanging Fruit', 'Pipe-line', 'Splash Page', 'Productivity',]
+nouns = ['Early Adopter', 'Low hanging Fruit', 'Pipe-line', 'Splash Page', 'Productivity','Process', 'Tipping Point', 'Paradigm']
+
+# Choose one verb, adjective and noun from each list
+verb = random.choice(verbs)
+adjective = random.choice(adjectives)
+noun = random.choice(nouns)
+
+# Now build out the phrase by adding the words together
+phrase = verb + ' ' + adjective + ' ' + noun
+
+# Output the phrase
+print(phrase)
