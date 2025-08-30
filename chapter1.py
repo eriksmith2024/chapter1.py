@@ -39,5 +39,7 @@ noun = random.choice(nouns)
 # Now build out the phrase by adding the words together
 phrase = verb + ' ' + adjective + ' ' + noun
 
-# Output the phrase
+# Output the phrasep
+print('')
 print(phrase)
+print('')
